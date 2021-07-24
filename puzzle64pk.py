@@ -2,13 +2,6 @@ import math
 from bitcoin import *
 from bit import *
 from bit.format import bytes_to_wif
-import blockcypher
-from moneywagon import AddressBalance
-import requests
-from urllib.request import urlopen
-from urllib.request import Request
-import satoshi
-import re
 
 c2 = int(input("enter the number of BTC addresses to generate ==> "))
 print("")
